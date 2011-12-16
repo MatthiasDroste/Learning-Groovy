@@ -7,7 +7,7 @@ class StringTesting {
 		def s2 = 'Hello $name' // $name will not be replaced
 		println s1
 		println s2
-		println s1.getClass().getName();
-		println s2.getClass().getName();
+		println "double-quoted string's type: " + s1.getClass().getName();
+		println "single-quoted string's type: " + s2.getClass().getName();
 	}
 }
